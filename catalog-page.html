@@ -1,0 +1,677 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/ion.rangeSlider.min.css">
+  <link rel="stylesheet" href="css/jquery.formstyler.css">
+  <link rel="stylesheet" href="css/jquery.formstyler.theme.css">
+  <link rel="stylesheet" href="css/jquery.rateyo.min.css">
+  <link rel="stylesheet" href="css/style.min.css">
+</head>
+<body>
+
+  <header class="header">
+    <div class="container">
+      <div class="header__top">
+        <nav class="menu">
+          <ul class="menu__list">
+            <li class="menu__item">
+              <a class="menu__link" href="#">
+                Магазины
+              </a>
+            </li>
+            <li class="menu__item">
+              <a class="menu__link" href="#">
+                Акции
+              </a>
+            </li>
+            <li class="menu__item">
+              <a class="menu__link" href="#">
+                Доставка и оплата
+              </a>
+            </li>
+          </ul>
+        </nav>
+        <a href="#" class="logo">
+          <img src="img/logo.svg" alt="">
+        </a>
+        <div class="header__info">
+          <div class="header__geolocation">
+            Москва,  ул. Науки  25
+          </div>
+          <ul class="header__icons">
+            <li class="header__item">
+              <a href="#" class="header__item-link">
+                <img src="img/brave.svg">
+              </a>
+            </li>
+            <li class="header__item">
+              <a href="#" class="header__item-link">
+                <img src="img/user.svg">
+              </a>
+            </li>
+            <li class="header__item">
+              <a href="#" class="header__item-link basket">
+                <img src="img/basket.svg">
+                <p class="header__item-link--num">1</p>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      
+      <ul class="header__bottom-list">
+        <li class="header__bottom-item">
+          <a href="#" class="header__bottom-link">Квадроциклы</a>
+        </li>
+        <li class="header__bottom-item">
+          <a href="#" class="header__bottom-link">Катера</a>
+        </li>
+        <li class="header__bottom-item">
+          <a href="#" class="header__bottom-link">Гидроциклы</a>
+        </li>
+        <li class="header__bottom-item">
+          <a href="#" class="header__bottom-link">Лодки</a>
+        </li>
+        <li class="header__bottom-item">
+          <a href="#" class="header__bottom-link">Вездеходы</a>
+        </li>
+        <li class="header__bottom-item">
+          <a href="#" class="header__bottom-link">Снегоходы</a>
+        </li>
+        <li class="header__bottom-item">
+          <a href="#" class="header__bottom-link">Двигатели</a>
+        </li>
+        <li class="header__bottom-item">
+          <a href="#" class="header__bottom-link">Запачасти</a>
+        </li>
+      </ul>
+      
+    </div>
+  </header>
+
+
+  <div class="breadcrumbs">
+    <div class="container">
+      <ul class="breadcrumbs__list">
+        <li class="breadcrumbs__item">
+          <a href="index.html">Глвная</a>
+        </li>
+        <li class="breadcrumbs__item">
+          <a href="catalog.html">Гидроциклы</a>
+        </li>
+        <li class="breadcrumbs__item">
+          <a href="">Гидроцикл BRP SeaDoo GTI 155hp SE Long Blue Metallic</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+
+  <section class="card">
+    <div class="container">
+      <div class="card__inner product__item--sale">
+        <div class="card__img">
+          <div class="card__img-box">
+            <img src="img/card-big.svg" alt="">
+          </div>
+          <div class="card__price-old">
+            1 200 475 ₽
+          </div>
+          <div class="card__price-new">
+            1 100 475 ₽
+          </div>
+          <a href="#" class="card__link">
+            Нашли дешевле? Снизим цену!
+          </a>
+        </div>
+        <div class="card__info">
+          <h5 class="card__title">
+            Гидроцикл BRP SeaDoo GTI 155hp SE Long Blue Metallic
+          </h5>
+          <div class="card__code">
+            Код товара:   366666-2 
+          </div>
+          <div class="card__buttons">
+            <a href="#"><img src="img/brave.svg" alt=""></a>
+            <a href="#"><img src="img/rate.svg" alt=""></a>
+            <a href="#" class="rate">
+              <div id="rateYo" data-rateyo-rating="4"></div>
+            </a>
+          </div>
+          <div class="tabs__wrapper">
+            <div class="tabs card__tabs">
+              <a href="#c-1" class="tab card__tab tab--active">
+                Характеристики
+              </a>
+              <a href="#c-2" class="tab card__tab">
+                Наличие в магазине
+              </a>
+            </div>
+            <div class="tabs__container">
+              <div id="c-1" class="tabs-content card__content tabs-content--active">
+                <ul class="card__content-list">
+                  <li class="card__content-item">
+                    <div class="card__content-left">
+                      Производитель
+                    </div>
+                    <div class="card__content-right">
+                      Канада
+                    </div>
+                  </li>
+                  <li class="card__content-item">
+                    <div class="card__content-left">
+                      Количество мест, шт: 
+                    </div>
+                    <div class="card__content-right">
+                      3
+                    </div>
+                  </li>
+                  <li class="card__content-item">
+                    <div class="card__content-left">
+                      Мощность, л.с.
+                    </div>
+                    <div class="card__content-right">
+                      155
+                    </div>
+                  </li>
+                  <li class="card__content-item">
+                    <div class="card__content-left">
+                      Тип двигателя
+                    </div>
+                    <div class="card__content-right">
+                      Бензиновый
+                    </div>
+                  </li>
+                  <li class="card__content-item">
+                    <div class="card__content-left">
+                      Год выпуска
+                    </div>
+                    <div class="card__content-right">
+                      2018
+                    </div>
+                  </li>
+                </ul>
+                <a href="#" class="card__content-link">
+                  Показать еще
+                </a>
+                <button class="card__content-btn">
+                  Купить
+                </button>
+              </div>
+              <div id="c-2" class="tabs-content card__content">
+                Content-2
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+  <section class="t">
+    <div class="container">
+      <div class="tabs__wrapper">
+        <div class="tabs t__tabs">
+          <a href="#v-1" class="tab t__tab">О товаре</a>
+          <a href="#v-2" class="tab t__tab">Характеристики</a>
+          <a href="#v-3" class="tab t__tab">Отзывы</a>
+          <a href="#v-4" class="tab t__tab tab--active">Самовывоз</a>
+          <a href="#v-5" class="tab t__tab">Доставка</a>
+          <a href="#v-6" class="tab t__tab">Сервис</a>
+          <a href="#v-7" class="tab t__tab">Гарантия</a>
+        </div>
+        <div class="tabs-container">
+          <div id="v-1" class="tabs-content t__content">
+            Контент-1
+          </div>
+          <div id="v-2" class="tabs-content t__content">
+            Контент-2
+          </div>
+          <div id="v-3" class="tabs-content t__content">
+            Контент-3
+          </div>
+          <div id="v-4" class="tabs-content t__content tabs-content--active">
+           <form>
+             <div class="t__form">
+               <label class="t__form-label">
+                Магазин
+                <input type="text" class="t__form-input">
+              </label>
+              <div class="t__form-box">
+               <label class="t__form-label">
+                Забрать сегодня
+                <input type="radio" name="check" class="filter-styler">
+              </label>
+              <label class="t__form-label">
+                Забрать в течении недели
+                <input type="radio" checked name="check" class="filter-styler">
+              </label>
+            </div>
+          </div>
+        </form> 
+        <ul class="t__list">
+          <li class="t__list-item t__list-item-title">
+            <div class="t__list-item-adress">
+              Адрес
+            </div>
+            <div class="t__list-item-wt">
+              Режим работы
+            </div>
+            <div class="t__list-item-available">
+              Доступно
+            </div>
+            <div class="t__list-item-lot">
+              Количество
+            </div>
+            <div class="t__list-item-btn">
+
+            </div>            
+          </li>
+          <li class="t__list-item">
+            <div class="t__list-item-adress">
+              Москва, ул. Науки 25
+            </div>
+            <div class="t__list-item-wt">
+              <div class="t__list-item-wt-b">
+                <span>пн-сб:</span>
+                <span>08:00-19:00</span>
+              </div>
+              <div class="t__list-item-wt-b">
+                <span>вс:</span>
+                <span>09:00-17:00</span>
+              </div>
+
+            </div>
+            <div class="t__list-item-available">
+              В наличии
+            </div>
+            <div class="t__list-item-lot">
+              1
+            </div>
+            <div class="t__list-item-btn">
+              <button type="submit">Купить</button>
+            </div>            
+          </li>
+          <li class="t__list-item">
+            <div class="t__list-item-adress">
+              Москва, ул.  Южная 134
+            </div>
+            <div class="t__list-item-wt">
+              <div class="t__list-item-wt-b">
+                <span>пн-сб:</span>
+                <span>08:00-19:00</span>
+              </div>
+              <div class="t__list-item-wt-b">
+                <span>вс:</span>
+                <span>09:00-17:00</span>
+              </div>
+
+            </div>
+            <div class="t__list-item-available">
+              В наличии
+            </div>
+            <div class="t__list-item-lot">
+              2
+            </div>
+            <div class="t__list-item-btn">
+              <button type="submit">Купить</button>
+            </div>            
+          </li>
+          <li class="t__list-item">
+            <div class="t__list-item-adress">
+              Санкт-Петербург, 
+              ул. Красная 19
+            </div>
+            <div class="t__list-item-wt">
+              <div class="t__list-item-wt-b">
+                <span>пн-сб:</span>
+                <span>08:00-19:00</span>
+              </div>
+              <div class="t__list-item-wt-b">
+                <span>вс:</span>
+                <span>09:00-17:00</span>
+              </div>
+
+            </div>
+            <div class="t__list-item-available">
+              Нет в наличии
+            </div>
+            <div class="t__list-item-lot">
+              0
+            </div>
+            <div class="t__list-item-btn">
+              <button type="submit">Купить</button>
+            </div>            
+          </li>
+          <li class="t__list-item">
+            <div class="t__list-item-adress">
+              Киев, ул Шевченко 167
+            </div>
+            <div class="t__list-item-wt">
+              <div class="t__list-item-wt-b">
+                <span>пн-сб:</span>
+                <span>08:00-19:00</span>
+              </div>
+              <div class="t__list-item-wt-b">
+                <span>вс:</span>
+                <span>09:00-17:00</span>
+              </div>
+
+            </div>
+            <div class="t__list-item-available">
+              Нет в наличии
+            </div>
+            <div class="t__list-item-lot">
+              0
+            </div>
+            <div class="t__list-item-btn">
+              <button type="submit">Купить</button>
+            </div>            
+          </li>
+        </ul>  
+      </div>
+      <div id="v-5" class="tabs-content t__content">
+        Контент-5
+      </div>
+      <div id="v-6" class="tabs-content t__content">
+        Контент-6
+      </div>
+      <div id="v-7" class="tabs-content t__content">
+        Контент-7
+      </div>
+    </div>
+  </div>
+</div>
+</section>      
+
+
+
+<section class="product-2">
+  <div class="container">
+    <div class="product__title-top">
+      С этим товаром покупают
+    </div>
+    <div class="product__inner">
+      <div class="product__tabs">
+        <a href="#b-1" class="tab product__tab tab--active">запчасти</a>
+        <a href="#b-2" class="tab product__tab">моторы</a>
+        <a href="#b-3" class="tab product__tab">шины</a>
+        <a href="#b-4" class="tab product__tab">электроника</a>
+        <a href="#b-5" class="tab product__tab">инструменты</a>
+        <a href="#b-6" class="tab product__tab">аксессуары</a>
+      </div>
+      <div class="product__content">
+        <div id="b-1" class="tabs-content product__content-item tabs-content--active">
+          <div class="product__content-slider">
+            <div class="product__content-slider-item">
+              <div class="product__content-wrapper">
+                <button class="product__content-favorite">
+
+                </button>
+                <button class="product__content-basket">
+
+                </button>
+                <a href="#" class="product__link">
+                  Сообщить о поступлении
+                </a>
+                <a href="#" class="product__item">
+                  <div class="product__img">
+                    <img src="img/product-1.svg" alt="">
+                  </div>
+                  <p class="product__look">
+                    посмотреть товар
+                  </p>
+                  <p class="product__not-available">
+                    нет в наличии
+                  </p>
+                  <h4 class="product__title">
+                    Водонепроницаемый
+                    Рюкзак
+                  </h4>
+                  <p class="product__price">
+                    9 800 ₽
+                  </p>
+                </a>
+              </div>
+            </div>
+            <div class="product__content-slider-item">
+              <div class="product__content-wrapper">
+                <button class="product__content-favorite">
+
+                </button>
+                <button class="product__content-basket">
+
+                </button>
+                <a href="#" class="product__link">
+                  Сообщить о поступлении
+                </a>
+                <a href="#" class="product__item product__item--sale">
+                  <div class="product__img">
+                    <img src="img/product-2.svg" alt="">
+                  </div>
+                  <p class="product__look">
+                    посмотреть товар
+                  </p>
+                  <p class="product__not-available">
+                    нет в наличии
+                  </p>
+                  <h4 class="product__title">
+                    Водонепроницаемый
+                    Рюкзак
+                  </h4>
+                  <p class="product__price">
+                    9 800 ₽
+                  </p>
+                </a>
+              </div>
+            </div>
+            <div class="product__content-slider-item">
+              <div class="product__content-wrapper">
+                <button class="product__content-favorite">
+
+                </button>
+                <button class="product__content-basket">
+
+                </button>
+                <a href="#" class="product__link">
+                  Сообщить о поступлении
+                </a>
+                <a href="#" class="product__item">
+                  <div class="product__img">
+                    <img src="img/product-3.svg" alt="">
+                  </div>
+                  <p class="product__look">
+                    посмотреть товар
+                  </p>
+                  <p class="product__not-available">
+                    нет в наличии
+                  </p>
+                  <h4 class="product__title">
+                    Водонепроницаемый
+                    Рюкзак
+                  </h4>
+                  <p class="product__price">
+                    9 800 ₽
+                  </p>
+                </a>
+              </div>
+            </div>
+            <div class="product__content-slider-item">
+              <div class="product__content-wrapper product__content-wrapper-not-available">
+                <button class="product__content-favorite">
+
+                </button>
+                <button class="product__content-basket">
+
+                </button>
+                <a href="#" class="product__link">
+                  Сообщить о поступлении
+                </a>
+                <a href="#" class="product__item product__item--sale">
+                  <div class="product__img">
+                    <img src="img/product-4.svg" alt="">
+                  </div>
+                  <p class="product__look">
+                    посмотреть товар
+                  </p>
+                  <p class="product__not-available">
+                    нет в наличии
+                  </p>
+                  <h4 class="product__title">
+                    Водонепроницаемый
+                    Рюкзак
+                  </h4>
+                  <p class="product__price">
+                    9 800 ₽
+                  </p>
+                </a>
+              </div>
+            </div>
+            <div class="product__content-slider-item">
+              <div class="product__content-wrapper">
+                <button class="product__content-favorite">
+
+                </button>
+                <button class="product__content-basket">
+
+                </button>
+                <a href="#" class="product__link">
+                  Сообщить о поступлении
+                </a>
+                <a href="#" class="product__item">
+                  <div class="product__img">
+                    <img src="img/product-1.svg" alt="">
+                  </div>
+                  <p class="product__look">
+                    посмотреть товар
+                  </p>
+                  <p class="product__not-available">
+                    нет в наличии
+                  </p>
+                  <h4 class="product__title">
+                    Водонепроницаемый
+                    Рюкзак
+                  </h4>
+                  <p class="product__price">
+                    9 800 ₽
+                  </p>
+                </a>
+              </div>
+            </div>
+
+          </div>
+        </div>
+        <div id="b-2" class="tabs-content product__content-item"></div>
+        <div id="b-3" class="tabs-content product__content-item"></div> 
+        <div id="b-4" class="tabs-content product__content-item"></div> 
+        <div id="b-5" class="tabs-content product__content-item"></div> 
+        <div id="b-6" class="tabs-content product__content-item"></div>  
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+<footer class="footer">
+  <div class="container">
+    <div class="footer__top">
+      <div class="footer__form">
+        <div class="footer__title">
+          Подпишитесь на нашу рассылку 
+          и узнавайте о акция быстрее
+        </div>
+        <form class="footer__form-box">
+          <input type="text" class="footer__form-input" placeholder="Введите ваш e-mail:">
+          <button class="footer__form-btn">Отправить</button>
+        </form>
+      </div>
+      <div class="footer__item">
+        <div class="footer__title">
+          Информация
+        </div>
+        <ul class="footer__list">
+          <li class="footer__item-link">
+            <a href="#">О компании</a>
+          </li>
+          <li class="footer__item-link">
+            <a href="#">Контакты</a>
+          </li>
+          <li class="footer__item-link">
+            <a href="#">Акции</a>
+          </li>
+          <li class="footer__item-link">
+            <a href="#">Магазины</a>
+          </li>
+        </ul>
+      </div>
+      <div class="footer__item">
+        <div class="footer__title">
+          Интернет-магазин
+        </div>
+        <ul class="footer__list">
+          <li class="footer__item-link">
+            <a href="#">Доставка и самовывоз</a>
+          </li>
+          <li class="footer__item-link">
+            <a href="#">Оплата</a>
+          </li>
+          <li class="footer__item-link">
+            <a href="#">Возврат-обмен</a>
+          </li>
+          <li class="footer__item-link">
+            <a href="#">Новости</a>
+          </li>
+        </ul>
+      </div>
+      <div class="footer__socials">
+        <ul class="footer__socials-list">
+          <li class="footer__socials-item">
+            <a href="#">
+              <img src="img/instagram.svg" alt="">
+            </a>
+          </li>
+          <li class="footer__socials-item">
+            <a href="#">
+              <img src="img/vk.svg" alt="">
+            </a>
+          </li>
+          <li class="footer__socials-item">
+            <a href="#">
+              <img src="img/facebook.svg" alt="">
+            </a>
+          </li>
+          <li class="footer__socials-item">
+            <a href="#">
+              <img src="img/youtube.svg" alt="">
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer__bottom">
+      <a href="#" class="footer__bottom-link">
+        Договор оферты
+      </a>
+      <a href="#" class="footer__bottom-link">
+        Политика обработки персональных данных
+      </a>
+    </div>
+  </div>
+</footer>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="js/libs.min.js"></script>
+<script src="js/ion.rangeSlider.min.js"></script>
+<script src="js/jquery.formstyler.min.js"></script>
+<script src="js/jquery.rateyo.min.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
+
